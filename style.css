@@ -1,0 +1,106 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    position: relative;
+  }
+  
+  body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+  }
+  nav {
+    background: #b31f1f;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+  }
+  .logo {
+    flex: 1;
+    margin-left: 40px;
+    color: bisque;
+  }
+  
+  .logo h1 {
+    letter-spacing: 2px;
+    font-size: 30px;
+  }
+  .list-items {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+    transition: 0.4s background;
+  }
+  
+  .link:hover {
+    color: #ba4c4a;
+  }
+  
+  .main {
+
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   
+    height: 90vh;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .main-left {
+    height: 100%;
+    width: 50%;
+  }
+  .main-right {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-v {
+    height: 30vw;
+    width: 30vw;
+  }
+  
+  .main-right p {
+    font-size: 30px;
+    padding-top: 20px;
+  }
+  
+  .text {
+    margin-left: 18%;
+    padding-top: 25%;
+  }
+  
+  .text span {
+    font-size: 4vw;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: bisque;
+  }
+  
+  .text p {
+    padding-top: 35px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 25px;
+    color:white;
+  }
+  
+ 
