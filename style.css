@@ -50,27 +50,20 @@
   }
   
   .link:hover {
-    color: #ba4c4a;
+    color: #e0e40d;
   }
   
   .main {
 
     background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+    background: linear-gradient(to left, #93291E, #ED213A); 
    
     height: 90vh;
     display: flex;
     justify-content: space-evenly;
   }
-  .main-2{
-    margin-top: 20%;
-    margin-left: 20%;
-    background: #ED213A;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  }
   .main-left {
     height: 100%;
     width: 50%;
@@ -87,13 +80,6 @@
     height: 30vw;
     width: 30vw;
   }
-
-  .img-u {
-    margin-right: 20%;
-    height: 30vw;
-    width: 50vw;
-  }
-  
   .main-right p {
     font-size: 30px;
     padding-top: 20px;
@@ -118,21 +104,23 @@
     line-height: 25px;
     color:white;
   }
-  
- 
   .map {
-  
-    position: absolute;
-  background-color: #b31f1f;
+    background: #ED213A;  
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  
+    background: linear-gradient(to left, #93291E, #ED213A); 
   width: 100vw;
   height: 100vh;
- 
-
   }
 
   .page2 {
    
-    position :relative;
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  .page3 {
+   
     width: 100vw;
     height: 100vh;
 

@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+  body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow-x: hidden;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #93291E, #ED213A); 
+  }
+  .logo img {
+    height:500px;
+    width:400px;
+    }
+
+.page2 {
+
+  width: 100vw;
+  height: 100vh;
+
+}
+  nav {
+    margin-top: 0;
+    position: absolute;
+    position:sticky;
+    background: #b31f1f;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+  }
+  .list-items {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+    transition: 0.4s background;
+  }
+  
+  .link:hover {
+    color: #e9ec14;
+  }
+  
+  
+.nav{   margin-top: 0;
+        position: absolute;
+        position:sticky;
+        background: #b31f1f;
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        padding-right: 60px;
+      }
+
+
+.box {
+    position: absolute;
+    top: -1%;
+    left: 20%;
+    width:30vw;
+    height: 100vh;
+    background-color:#EF0E0E;
+    opacity: 0.5;
+}
+.aboutus {
+   color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: clamp(5rem, 12vw, 10rem);
+    position: absolute;
+    z-index:5;
+    top: 25%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 95px;
+}
+.info {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    font-size: clamp(5rem, 12vw, 10rem);
+    position: absolute;
+    z-index:5;
+    top: 45%;
+    left: 5%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 35px;
+}
+
+
+
+    /* *********************************CONTACT US***************************************** */
+    .section {
+      
+      position: relative;
+      width: 900px;
+      max-width: 80%;
+      border: 2px solid rgba(255, 255, 255, 0.884);
+      border-top: none;
+      text-align: center;
+      margin: 60px auto;
+      color: white;
+    }
+    
+    .section h1 {
+      position: relative;
+      margin-top: -14px;
+      display: inline-block;
+      letter-spacing: 4px;
+      color: rgba(255, 255, 255, 0.863);
+    }
+    .top-border{
+      position: absolute;
+      height: 2px;
+      width: 24%;
+      background-color: rgba(247, 247, 247, 0.815);
+    }
+    .right {
+      right: 0;
+    }
+    .left {
+      left: 0;
+    }
+
+  .h2{
+    color: rgba(255, 255, 255, 0.849);
+  }
+    
+    
+    
+
+
+
+ 
