@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+  body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    overflow-x: hidden;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #93291E, #ED213A); 
+  }
+
+.page2 {
+  width: 100vw;
+
+}
+  nav {
+    margin-top: 0;
+    position: absolute;
+    position:sticky;
+    background: #b31f1f;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    padding-right: 60px;
+  }
+  .list-items {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .list {
+    list-style: none;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: rgb(252, 249, 249);
+    font-weight: bold;
+    transition: 0.4s background;
+  }
+  
+  .link:hover {
+    color: #e9ec14;
+   
+  }
+  
+  
+.nav{   
+        position: absolute;
+        position:sticky;
+        background: #b31f1f;
+        height: 10vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        padding-right: 60px;
+       }
+.aboutus {
+    color: rgb(255, 255, 255);
+    margin-top: 5vh;
+    padding-left: 5vw;
+    font-size: clamp(1rem, 12vw, 10rem);
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.info {
+    color: rgb(255, 255, 255);
+    font-size: clamp(0.75rem, 12vw, 2rem);
+    margin-top: 3vh;
+    padding-left: 5vw;
+    font-family: 'Open Sans Condensed', sans-serif;
+  
+}
+
+
+
+    /* *********************************CONTACT US***************************************** */
+    .section {
+      
+      position: relative;
+      width: 900px;
+      max-width: 80%;
+      border: 2px solid rgba(255, 255, 255, 0.884);
+      border-top: none;
+      text-align: center;
+      margin: 200px auto 100px auto;
+      color: white;
+    }
+    
+    .section h1 {
+      position: relative;
+      margin-top: -14px;
+      display: inline-block;
+      letter-spacing: 4px;
+      color: rgba(255, 255, 255, 0.863);
+    }
+    .top-border{
+      position: absolute;
+      height: 2px;
+      width: 24%;
+      background-color: rgba(247, 247, 247, 0.815);
+    }
+    .right {
+      right: 0;
+    }
+    .left {
+      left: 0;
+    }
+
+  .h2{
+    color: rgba(255, 255, 255, 0.849);
+  }
+    
+  
+  .cursor {
+    position:fixed;
+    width : 20px;
+    height :20px;
+    border-radius: 50%;
+    background: #fff;
+    transition :0.1s;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode:overlay;
+
+  }
+
+ul li:hover ~ .cursor
+{
+   transform:scale(6)
+}  
+    
+
+
+
+ 
