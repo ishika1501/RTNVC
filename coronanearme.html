@@ -23,6 +23,8 @@
               <li class="list"><a href="file:///C:/Users/my%20pc/Desktop/corona/map.html" class="link">INFORMATION</a></li>
               <li class="list"><a href="file:///C:/Users/my%20pc/Desktop/corona/about.html" class="link">ABOUT US</a></li>
               <li class="list"><a href="file:///C:/Users/my%20pc/Desktop/corona/about.html" class="link">CONTACT US</a></li>
+
+              <div class="cursor"></div>
             </ul>
        </nav>
     
@@ -40,6 +42,14 @@
 
 </div>
 
+<script>
+    const cursor = document.querySelector('.cursor');
+    document.addEventListener('mousemove',(e)=>{
+      cursor.style.left = e.pageX +'px';
+      cursor.style.top =e.pageY +'px';
+      
+    })
+  </script>
 
 </body>
 </html>

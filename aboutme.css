@@ -47,6 +47,7 @@
   
   .link:hover {
     color: #e9ec14;
+   
   }
   
   
@@ -134,7 +135,24 @@
     color: rgba(255, 255, 255, 0.849);
   }
     
-    
+  
+  .cursor {
+    position:fixed;
+    width : 20px;
+    height :20px;
+    border-radius: 50%;
+    background: #fff;
+    transition :0.1s;
+    transform: translate(-50%,-50%);
+    pointer-events: none;
+    mix-blend-mode:overlay;
+
+  }
+
+ul li:hover ~ .cursor
+{
+   transform:scale(6)
+}  
     
 
 
